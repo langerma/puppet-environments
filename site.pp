@@ -1,2 +1,2 @@
 hiera_include('classes')
-node 'server.langer.lan' {}
+#node 'server.langer.lan' {}
