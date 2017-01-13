@@ -6,8 +6,3 @@ filebucket {
 }
 
 hiera_include('classes')
-case $::operatingsystem {
-  'FreeBSD': {
-    include collectd
-  }
-}
