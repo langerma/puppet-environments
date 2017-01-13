@@ -1,5 +1,6 @@
 forge 'forge.puppetlabs.com'
 mod 'puppetlabs/ntp'
 mod 'puppetlabs/stdlib'
+mod 'puppetlabs/concat'
 #mod 'ptomulik-portsng'
 mod 'puppet-collectd'
