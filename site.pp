@@ -5,6 +5,10 @@ filebucket {
     path =>  false,
 }
 
+Package {
+  allow_virtual =>  true,
+}
+
 node default {
   hiera_include('classes')
   $ssh_authorized_keys = hiera_hash('ssh_authorized_keys', undef)
