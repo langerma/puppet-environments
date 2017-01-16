@@ -1,6 +1,6 @@
 # Define filebucket 'main':
 Package {
   allow_virtual => true,
-  provider      => portsng,
+  provider      => ports,
 }
 hiera_include('classes')
