@@ -2,6 +2,6 @@
 
 Package {
   allow_virtual => true,
-  provider      => ports,
+  #  provider      => ports,
 }
 hiera_include('classes')
